@@ -98,7 +98,7 @@ function BooksList() {
                                     <th scope="row">{index + 1}</th>
                                     <th scope="row">{'BookID-' + book.id}</th>
                                     <td>{book.title}</td>
-                                    <td>{book.type}</td>
+                                    <td>{book.typeId}</td>
                                     <td>{book.createAt}</td>
                                     <td>{book.quantity}</td>
 
